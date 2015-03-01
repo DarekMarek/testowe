@@ -1,0 +1,255 @@
+/* Space out content a bit */
+
+
+
+body {
+  margin: 0 auto !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative !important;
+ /* background: url('../img/wallpaper.jpg') top right no-repeat fixed;*/
+  clear: none;
+  background-color: #fdf8f8 !important; 
+}
+
+.main {
+  position: relative !important;  
+  margin: 0 20%;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+ 
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+
+.bs-example{
+	/*margin-left: 20px;
+	margin-right: 400px;*/
+	margin-top: 20px;
+ 
+}
+
+.bs-custom{
+/*	margin-left: 20px;*/
+/*  margin: 0 auto;*/
+    float: right;
+  padding: 20px 0; 
+}
+
+.smallImg {
+	width: 20px;
+	height: 10px
+}
+
+.bigImg {
+	width: 40px;
+	height: 20px
+}
+
+table{
+	border-color: black;
+    background-color: red;
+}
+
+
+
+
+#title{
+    margin-top: 50px;
+    width: 340px;
+    margin-left: 50px;
+}
+
+#question{
+    width: 340px;
+    height: 350px;
+    margin-left: 50px;
+}
+
+
+/*
+#navs{
+position: absolute;
+margin-top: 0px !important;
+}
+   */ 
+    
+.nav-pills li a {
+  background-color: #c4b11e;
+  color: white;
+  
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: #101010 !important;
+  color: white;
+}
+
+.list-group{
+ clear:both;
+ 
+    
+}
+
+.col-sm-9{
+/*margin-left: 13px !important;
+min-height: 100px !important;
+width:777px !important;
+line-height: 1.5 !important;
+margin-bottom: 50px;*/
+background-color: #e8e8e8;
+border-radius: 15px !important;
+width: 97.5% !important;
+margin-bottom: 7%;
+margin-left: 1.2% !important;
+  margin-right: 1% !important;
+}
+
+.btn-primary{
+background-image: linear-gradient(to bottom,#c4b11e 0,#c4b11e 100%) !important;
+border-color: #bababa !important;
+     background-color: #c4b11e !important;
+color: #fff;
+background-color: linear-gradient(to bottom,#c4b11e 0,#c4b11e 100%)!important;
+    
+}
+
+.input.btn.btn-primary{
+  background-image: linear-gradient(to bottom,#c4b11e 0,#c4b11e 100%) !important;
+border-color: #bababa !important;
+color: #fff;
+background-color: linear-gradient(to bottom,#c4b11e 0,#c4b11e 100%)!important;  
+}
+ .well{
+  border-radius: 5px !important;
+  width: 100% !important;
+  margin-bottom: 5%;   
+  background-color: #eadede !important;
+  background-image: linear-gradient(to bottom,#eadede 0,#eadede 100%)!important;
+  list-style:decimal;
+  
+  
+ }
+.answer{
+ border-bottom:1px solid #f0f0f0;   
+}
+
+#logo{
+margin-bottom: 2%;
+}
+
+#dialogbox{
+    display: none;
+    position: fixed;
+    background:#000;
+    border-radius: 7px;
+    width: 550px;
+    z-index: 10;
+}
+
+#dialogbox > div{ background: #FFF; margin: 8px;  }
+#dialogbox > div > #dialogboxhead{ background: #666; padding: 10px; font-size: 19px; color: #CCC;}
+#dialogbox > div > #dialogboxbody{ background: #333;padding: 20px; color: #FFF;}
+#dialogbox > div > #dialogboxfoot{ background: #666;padding: 10px;}
+
+
+.signinup {
+    background-color: #EDEDED;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+    width: 300%;
+    margin-left: -120% ;
+    margin-top: 20%;
+}
+
+.list-group-item{}
+.moja-p{
+ padding: 4px 15px;
+  background-color: #EDEDED !important; 
+  list-style:decimal !important;
+  border-radius: 15px;
+  list-style:decimal;
+}
+.l{
+ border-bottom:1px solid #8b8989; 
+}
+
+.text-muted{
+margin-left: 400px !important;
+}
