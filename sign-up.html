@@ -1,0 +1,22 @@
+
+<div ng-controller="UserController as userCtrl">
+<form ng-submit="userCtrl.addUser()">
+<div class="col-md-offset-5 col-md-3">
+    <div class="signinup">
+            <h4>Sign up to Stack Overflow ZPI</h4>
+            <input type="text" ng-model="userCtrl.user.login" id="login" class="form-control input-sm chat-input" placeholder="Name (your public display name)" required/>
+            </br>
+            <input type="email" ng-model="userCtrl.user.email" id="email" class="form-control input-sm chat-input" placeholder="Email (required, but never shown)" required/>
+            </br>
+            <input type="password" ng-model="userCtrl.user.password_digest" id="password1" name="password1" class="form-control input-sm chat-input" placeholder="Password" required/>
+            </br>
+            <!--<input type="text" ng-model="userCtrl.user.password_confirmation" id="password2" name="password2" class="form-control input-sm chat-input" placeholder="Confirm password" required pw-check="password1"/>-->
+            <input type="password" ng-model="userCtrl.user.password_digest_confirmation" id="password2" name="password2" class="form-control input-sm chat-input" placeholder="Confirm password" required />
+            </br>
+    
+            <input type="submit" value="Sign up" class="btn btn-primary">
+    </div>
+        
+ </div>
+</form>
+</div>

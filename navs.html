@@ -1,0 +1,25 @@
+<div ng-controller="UserController as UserCtrl">
+<nav class="navbar navbar-inverse" id="navs">
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#/log-in">Log in <span class="sr-only">(current)</span></a></li>
+        <li><a href="#/sign-up">Sign up</a></li>
+        
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#" ng-click="UserCtrl.logout()">Log out</a></li>
+          <!--<li><button class="btn btn-default" ng-click="UserCtrl.logout()">Log out</button></li>-->
+          <!--<li class="dropdown">-->
+        </ul>
+  </div>
+</nav>
+</div>
+<div class="bs-custom">
+	<ul class="nav nav-pills">
+		<li><a href="#/questions">Questions</a></li>
+		<li><a href="#/unanswered">Unasnwered</a></li>
+		<li><a href="#/ask-question">Ask question</a></li>
+        <li><a href="#/my-account">My account</a></li>
+	</ul>
+</div>
+<!--<a href="#/route2/1234">Route 2 + param</a>-->
