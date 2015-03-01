@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 tralalala
+=======
+lalalala
+>>>>>>> 2cfb9c5ed60bfc10fcc9f6093dd7073a09360944
